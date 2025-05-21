@@ -1,0 +1,10 @@
+{
+    "files": [
+        "assets",
+        "components",
+        "config",
+        "app.config.ts",
+        "tailwind.config.ts"
+    ]
+}
+  
