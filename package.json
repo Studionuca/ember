@@ -12,6 +12,7 @@
     "app.vue",
     "app.config.ts",
     "nuxt.config.ts",
+    "index.ts",
     "tailwind.config.ts",
     "assets",
     "components",
