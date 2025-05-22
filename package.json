@@ -1,19 +1,19 @@
 {
     "name": "ember",
     "version": "1.0.0",
+    "main": "nuxt.config.ts",
     "exports": {
-      "./app.config": "./app.config.ts",
-      "./components": "./components"
+      "./nuxt.config": "./nuxt.config.ts",
+      "./app.config": "./app.config.ts"
     },
     "files": [
-        "assets",
-        "components",
-        "config",
-        "app.config.ts",
-        "tailwind.config.ts"
+      "nuxt.config.ts",
+      "app.config.ts",
+      "components",
+      "assets",
+      "tailwind.config.ts"
     ],
     "dependencies": {
-      "@nuxt/ui": "^2.0.0"
+      "@nuxt/ui": "^3.1.0"
     }
   }
-  
