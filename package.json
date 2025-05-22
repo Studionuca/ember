@@ -9,6 +9,7 @@
     "./app.config": "./app.config.ts"
 },
 "files": [
+    "app.vue",
     "app.config.ts",
     "nuxt.config.ts",
     "tailwind.config.ts",
