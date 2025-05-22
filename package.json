@@ -6,6 +6,7 @@
       "./nuxt.config": "./nuxt.config.ts",
       "./app.config": "./app.config.ts"
     },
+    "type": "module",
     "files": [
       "nuxt.config.ts",
       "app.config.ts",
