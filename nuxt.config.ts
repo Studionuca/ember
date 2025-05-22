@@ -1,8 +1,9 @@
-export default defineNuxtConfig({
+export default defineNuxtModule({
     css: ['~/assets/css/main.css'],
     components: {
         global: true,
-        dirs: ['~/components']
+        dirs: ['~/components'],
+        prefix: 'Em'
     },
     tailwindcss: {
         configPath: './tailwind.config.ts'
@@ -12,6 +13,6 @@ export default defineNuxtConfig({
         colorMode: true,
     },
     modules: [
-    '@nuxt/ui',
+      '@nuxt/ui',
     ],
 })

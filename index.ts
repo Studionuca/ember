@@ -1,0 +1,22 @@
+import { defineNuxtModule, addComponentsDir } from '@nuxt/kit'
+import { fileURLToPath } from 'url'
+import { join } from 'path'
+
+export default defineNuxtModule({
+  meta: {
+    name: 'ember',
+    configKey: 'ember'
+  },
+  async setup(_, nuxt) {
+    const rootDir = fileURLToPath(new URL('.', import.meta.url))
+
+    await addComponentsDir({
+      path: join(rootDir, 'components'),
+      pathPrefix: false,
+      global: true,
+      prefix: 'Em' // wichtig!
+    })
+
+    nuxt.options.css.push(join(rootDir, 'assets/css/main.css'))
+  }
+})
