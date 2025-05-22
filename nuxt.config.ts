@@ -1,20 +1,17 @@
-// https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    components: [
-      {
-        path: '~/components/',
-        prefix: 'Em'
-      },
-    ],
+    css: ['~/assets/css/main.css'],
+    components: {
+        global: true,
+        dirs: ['~/components']
+    },
+    tailwindcss: {
+        configPath: './tailwind.config.ts'
+    },
     ui: {
-      prefix: 'Em',
-      colorMode: true,
+        prefix: 'Em',
+        colorMode: true,
     },
     modules: [
-      '@nuxt/ui',
+    '@nuxt/ui',
     ],
-    css: [
-      '~/assets/css/main.css'
-    ],
-  })
-  
+})
