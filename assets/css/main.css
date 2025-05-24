@@ -17,7 +17,7 @@ h1 {
     --ui-warning: var(--ui-color-warning-500);
     --ui-error: var(--ui-color-error-500);
 }
-  
+
 .dark {
     --ui-primary: var(--color-zinc-300);
     --ui-secondary: var(--ui-color-secondary-400);
