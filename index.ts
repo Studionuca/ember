@@ -14,7 +14,7 @@ export default defineNuxtModule({
       path: join(rootDir, 'components'),
       pathPrefix: false,
       global: true,
-      prefix: 'Em' // wichtig!
+      prefix: 'Em' // Important!
     })
 
     nuxt.options.css.push(join(rootDir, 'assets/css/main.css'))

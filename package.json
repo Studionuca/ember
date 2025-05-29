@@ -1,14 +1,14 @@
 {
-"name": "ember",
-"version": "1.0.0",
-"main": "./index.ts",
-"type": "module",
-"exports": {
+  "name": "ember",
+  "version": "0.1.1",
+  "main": "./index.ts",
+  "type": "module",
+  "exports": {
     ".": "./index.ts",
     "./nuxt.config": "./nuxt.config.ts",
     "./app.config": "./app.config.ts"
-},
-"files": [
+  },
+  "files": [
     "app.vue",
     "app.config.ts",
     "nuxt.config.ts",
@@ -17,11 +17,11 @@
     "assets",
     "components",
     "config"
-],
-"dependencies": {
+  ],
+  "dependencies": {
     "@nuxt/ui": "^3.1.2",
     "@nuxt/kit": "^3.0.0",
     "@nuxtjs/color-mode": "^3.5.2",
     "@tailwindcss/vite": "^4.1.7"
-}
+  }
 }
